@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+</body>
+</html>
+<main>
+  <header>
+    <div class="container navbar">
+      <h1>Hubungi Saya</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="proyek.html">Proyek</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+  </header>
+  <form>
+    <div class="container">
+  <section class="kartu">
+      <p>
+        <label for="nama">Nama lengkap</label><br />
+        <input
+          type="text"
+          id="nama"
+          name="nama"
+          placeholder="Contoh: Josep Santoso"
+          required
+        />
+      </p>
+  </section>
+  <section class="kartu">
+      <p>
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Josep@gmail.com"
+          required
+        />
+      </p>
+      </section>
+      <section class="kartu">
+      <p>
+        <label for="hp">Nomor HP</label><br />
+        <input
+          type="tel"
+          id="hp"
+          name="hp"
+          placeholder="081234567890"
+          required
+        />
+      </p>
+      </section>
+      <section class="kartu">
+      <p>
+        <label for="keperluan">Keperluan</label><br />
+        <select id="keperluan" name="keperluan" required>
+          <option value="">-- Pilih keperluan --</option>
+          <option value="bertanya">Bertanya</option>
+          <option value="kerja-sama">Kerja sama proyek</option>
+          <option value="lainnya">Lainnya</option>
+        </select>
+      </p>
+      </section>
+      <section class="kartu">
+      <p>
+        <label for="pesan">Pesan</label><br />
+        <textarea
+          id="pesan"
+          name="pesan"
+          rows="5"
+          cols="40"
+          placeholder="Tulis pesanmu di sini"
+          required
+        ></textarea>
+      </p>
+      </section>
+      <button type="submit">Kirim Pesan</button>
+    </div>
+    </form>
+    <footer>
+        &copy;Portofolio Arya, since 2026
+    </footer>
+  </section>
+</main>
