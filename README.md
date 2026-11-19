@@ -24,4 +24,4 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 ## Tautan
 
 - Website: https://portofolio-aryasatya.vercel.app
-- Dibuat oleh: Andi Pratama, SMK Mitra
+- Dibuat oleh: Kenzie Dian Kartika Aryasatya, SMKN 1 Jenangan
